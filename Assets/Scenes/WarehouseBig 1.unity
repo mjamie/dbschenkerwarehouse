@@ -822,6 +822,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Box_Pallet03 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 167306, guid: 55f6d67c95b1ec04f9c6d76eca898fb2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 403650, guid: 55f6d67c95b1ec04f9c6d76eca898fb2, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -4823,7 +4827,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 9b76f416bdf1f1242a42ef959aae9324,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 7.4266
+      value: 7.55
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9b76f416bdf1f1242a42ef959aae9324,
         type: 3}
@@ -9029,7 +9033,7 @@ PrefabInstance:
     - target: {fileID: 3105912111610639104, guid: 95fa1fd3c47aafe4ca02325a6550bb9c,
         type: 3}
       propertyPath: CharacterControllerYOffset
-      value: 0.3
+      value: -0.025
       objectReference: {fileID: 0}
     - target: {fileID: 3416407839948019760, guid: 95fa1fd3c47aafe4ca02325a6550bb9c,
         type: 3}
@@ -18659,6 +18663,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cardbox_open02a
       objectReference: {fileID: 0}
+    - target: {fileID: 139052, guid: b2b8548f04e898b49b1d86e9ebe04500, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 453378, guid: b2b8548f04e898b49b1d86e9ebe04500, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -26038,6 +26046,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Crate_tarp01big (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 163292, guid: e27af4f26ff09f34dbd7c909ff0e6206, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 486842, guid: e27af4f26ff09f34dbd7c909ff0e6206, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -26073,6 +26085,10 @@ PrefabInstance:
     - target: {fileID: 486842, guid: e27af4f26ff09f34dbd7c909ff0e6206, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6451748, guid: e27af4f26ff09f34dbd7c909ff0e6206, type: 3}
+      propertyPath: m_Convex
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e27af4f26ff09f34dbd7c909ff0e6206, type: 3}
@@ -42155,7 +42171,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: e5f736a379945854482239cbaeb3a3cf,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 7.2825
+      value: 7.4059
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e5f736a379945854482239cbaeb3a3cf,
         type: 3}
