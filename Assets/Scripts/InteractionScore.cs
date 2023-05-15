@@ -7,11 +7,12 @@ public class InteractionScore : GenericSingletonClass<InteractionScore>
 {
     [SerializeField] List <TextMeshProUGUI> text;
     
-    int score = 0;
+    [SerializeField] int initialScore = 0;
 
     [SerializeField] int maxScore = 10;
     [SerializeField] BoxCollider exitCollider;
     [SerializeField] GameObject alarmLights;
+    [SerializeField] GameObject smoke;
 
     [SerializeField] TextMeshProUGUI exitText;
     AudioSource audioSource;
@@ -22,13 +23,13 @@ public class InteractionScore : GenericSingletonClass<InteractionScore>
     }
     public void AddScore()
     {
-        ++score;
+        ++initialScore;
         foreach (var text in text)
         {
-            text.text = score + "/" + maxScore;
+            text.text = initialScore + "/" + maxScore;
         }
 
-        if (score >= maxScore)
+        if (initialScore >= maxScore)
         {
             audioSource.Play();
 
@@ -36,6 +37,7 @@ public class InteractionScore : GenericSingletonClass<InteractionScore>
 
             exitCollider.enabled = true;
             alarmLights.SetActive(true);
+            smoke.SetActive(true);
             Debug.Log("EXIT THE WAREHOUSE");
         }
     }
